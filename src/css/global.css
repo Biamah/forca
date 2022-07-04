@@ -25,3 +25,21 @@ html, body {
 h1 {
     color: var(--color-text-title);
 }
+
+button {
+    padding: 10px 15px;
+    background-color: var(--color-background-button);
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s opacity;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button[disabled]{
+    opacity: 0.2;
+    pointer-events: none;
+}
