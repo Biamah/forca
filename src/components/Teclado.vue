@@ -17,17 +17,7 @@ export default {
         letras: Array,
         verificaLetra: Function,
         jogar: Function,
-    },
-    data(){
-        return
-    },
-    methods: {
-
-    },
-    components: {
-
     }
-
 }
 </script>
 

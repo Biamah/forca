@@ -12,6 +12,7 @@
     />
 
     <Teclado
+        v-if="etapa === 'jogo'"
         :letras="letras" 
         :verificaLetra="verificaLetra"
         :jogar="jogar"
@@ -43,12 +44,6 @@ export default {
         letras: Array,
         jogar: Function,
         jogarNovamente: Function,
-    },
-    data(){
-        return
-    },
-    methods: {
-
     },
     components: {
         Forca,

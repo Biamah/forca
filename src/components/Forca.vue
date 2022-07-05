@@ -10,9 +10,6 @@ export default {
     props: {
         erros: Number,
     },
-    data() {
-        return
-    },
     methods: {
 
     }

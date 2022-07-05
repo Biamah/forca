@@ -20,15 +20,6 @@ export default {
         dica: String,
         verificaLetra: Function,
         etapa: String,
-    },
-    data(){
-
-    },
-    methods: {
-
-    },
-    components: {
-
     }
 }
 </script>

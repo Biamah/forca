@@ -13,17 +13,7 @@ export default {
         etapa: String,
         texto: String,
         jogarNovamente: Function,
-    },
-    data(){
-
-    },
-    methods: {
-
-    },
-    components: {
-
     }
-
 }
 </script>
 
