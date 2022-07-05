@@ -1,4 +1,5 @@
 # jogo-da-forca-vuejs
+<a href="https://jogo-forca.netlify.app/">Jogo da Forca</a>
 
 ## Project setup
 ```
